@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="app">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ragnarok | Helper</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/responsee.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Include the Angular JS library -->
+    <script type="text/javascript" src="assets/js/angular.min.js"></script>
+    <script type="text/javascript" src="assets/js/angular-route.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/JustMaier/6ef7788709d675bd8230/raw/3d39d50e66d8d77e05656ed7dd09298be7e86f1f/ngClickCopy.js"></script>
+
+    <!-- Angular Module -->
+    <script type="text/javascript" src="angular/model/app.js"></script>
+
+    <!-- Angular Service -->
+    <script type="text/javascript" src="angular/service/RagnarokService.js"></script>
+
+    <!-- Angular Controller -->
+    <script type="text/javascript" src="angular/controller/RagnarokController.js"></script>
+
+    <!-- CUSTOM STYLE -->      
+    <link rel="stylesheet" href="assets/css/template-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,400,600,900&subset=latin-ext" rel="stylesheet"> 
+    <script type="text/javascript" src="assets/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>      
+  </head>
+
+  <body class="size-1140">
+  	<!-- PREMIUM FEATURES BUTTON -->
+  	<a target="_blank" class="hide-s" href="../template/minimalista-premium-responsive-business-template/" style="position:fixed;top:120px;right:-14px;z-index:10;">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+    ">
+    <input type="image" src="https://orig00.deviantart.net/7e83/f/2010/155/1/5/donate_button_by_doctorkei.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    </a>
+    <div id="page-wrapper">
+      <!-- HEADER -->
+      <header role="banner" class="position-absolute margin-top-30 margin-m-top-0 margin-s-top-0">    
+        <!-- Top Navigation -->
+        <nav class="background-transparent background-transparent-hightlight full-width sticky">
+          <div class="s-12 l-2">
+            <a href="index.html" class="logo">
+              <!-- Logo version before sticky nav -->
+              <img class="logo-before" src="assets/img/logo.png" alt="">
+              <!-- Logo version after sticky nav -->
+              <img class="logo-after" src="assets/img/logo.png" alt="">
+            </a>
+          </div>
+          <div class="s-12 l-10">
+            <div class="top-nav right">
+              <p class="nav-text"></p>
+              <ul class="right chevron">
+                <li><a href="#/">Home</a></li>
+                <li><a href="#about-us">About Me</a></li>  
+              </ul>
+            </div>
+          </div>  
+        </nav>
+      </header>
+      
+      <!-- MAIN -->
+      <main role="main" data-ng-controller="RagnarokController as RagnarokCtrl">
+        <article ng-view></article>
+      </main>
+      
+      <!-- FOOTER -->
+      <footer>
+        <!-- Contact Us -->
+        <div class="background-dark padding text-center footer-social">
+          <a target="_blank" href="https://www.linkedin.com/in/tatianasaturno/"><i class="icon-linked_in_circle text-size-30"></i> <span class="text-strong text-white hide-s hide-m">LINKEDIN</span></a>                                                                         
+        </div>
+
+        <!-- Bottom Footer -->
+        <section class="padding background-dark full-width">
+          <div class="text-center">
+            <p class="text-size-12">Copyright 2018</p>
+            <p class="text-size-12"><a target="_blank" href="https://www.myresponsee.com/responsive-website-templates/">Website Original Template</span></a></p>
+            <p class="text-size-12">Donation button by <a target="_blank" href="https://www.deviantart.com/art/Donate-Button-166473783">DoctorKei</span></a></p>
+          </div>
+        </section>
+      </footer>
+    </div>
+    <script type="text/javascript" src="assets/js/responsee.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.events.touch.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118005622-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118005622-1');
+    </script>
+
+  </body>
+</html>

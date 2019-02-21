@@ -1,0 +1,126 @@
+﻿recipe_name;buff_effect;utensil;Ingredient_1;Ingredient_2;Ingredient_3;Ingredient_4;Ingredient_5
+Rookie Meat Steak;MaxHP+60, MaxSP+6, DEF+8;Luxury Worktop;ANY: Meat;;;;
+Rookie Meat Kebab;MaxHP+60, MaxSP+6, DEF+8;Wild Life BBQ;ANY: Meat;;;;
+Rookie Broth;MaxHP+60, MaxSP+6, DEF+8;Pressure Cooker;ANY Meat;;;;
+Rookie Sashimi;MaxHP+60, MaxSP+6, DEF+8;Beverage Stall;ANY: Meat;;;;
+Rookie Fried Dish;MaxHP+60, MaxSP+6, MDEF+8;Luxury Worktop;ANY: Vegetables;;;;
+Rookie Vegetable Kebab;MaxHP+60, MaxSP+6, MDEF+8;Wild Life BBQ;ANY: Vegetables;;;;
+Rookie Vegetable Soup;MaxHP+60, MaxSP+6, MDEF+8;Pressure Cooker;ANY: Vegetables;;;;
+Rookie Salad;MaxHP+60, MaxSP+6, MDEF+8;Beverage Stall;ANY: Vegetables;;;;
+Rookie Fish Steak;MaxHP+60, MaxSP+6, ATK+8;Luxury Worktop;ANY: Fish;;;;
+Rookie Seafood Kebab;MaxHP+60, MaxSP+6, ATK+8;Wild Life BBQ;ANY: Fish;;;;
+Music Box Meat Soup;MaxHP+60, MaxSP+6, ATK+8;Pressure Cooker;ANY: Fish;;;;
+Rookie Sushi;MaxHP+60, MaxSP+6, ATK+8;Beverage Stall;ANY: Fish;;;;
+Rookie Jam;MaxHP+60, MaxSP+6, MATK+8;Luxury Worktop;ANY: Fruit;;;;
+Rookie Fruit Slices;MaxHP+60, MaxSP+6, MATK+8;Wild Life BBQ;ANY: Fruit;;;;
+Rookie Black Tea;MaxHP+60, MaxSP+6, MATK+8;Pressure Cooker;ANY: Fruit;;;;
+Rookie Fruit Plate;MaxHP+60, MaxSP+6, MATK+8;Beverage Stall;ANY: Fruit;;;;
+Dark Cuisine;??????????;FAIL;;;;;
+Traveler Bacon;MaxHP+90, MaxSP+9, DEF+12;Luxury Worktop;Lunatic Meat;Salt;;;
+Popular Kebab;MaxHP+90, MaxSP+9, DEF+12;Wild Life BBQ;Vocal Leg;Salt;;;
+Fragrant Broth;MaxHP+90, MaxSP+9, DEF+21;Pressure Cooker;Lunatic Meat;Flour;;;
+Ray Dessert;MaxHP+90, MaxSP+9, MDEF+12;Beverage Stall;South Gate Carrot;Flour;;;
+Seafood Bowl;MaxHP+90, MaxSP+9, ATK+12;Luxury Worktop;Vadon Meat;Flour;;;
+Island Kebab;MaxHP+90, MaxSP+9, ATK+12;Wild Life BBQ;Hydra Meat;Flour;;;
+Fish Head Soup;MaxHP+90, MaxSP+9, ATK+12;Pressure Cooker;Hydra Meat;Salt;;;
+Ice Cream;MaxHP+90, MaxSP+9, MATK+12, DEF+12;Beverage Stall;Poring Apple;Smokie Grape;;;
+Healthy Salad;MaxHP+90, MaxSP+9, MATK+12;Luxury Worktop;West Gate Tomato;Salt;;;
+MSG;MaxHP+90, MaxSP+9, MDEF+12;Wild Life BBQ;South Gate Carrot;Salt;;;
+Mum's Soup;MaxHP+90, MaxSP+9, MATK+12, MDEF+12;Pressure Cooker;South Gate Carrot;West Gate Tomato;;;
+Smokie Cookie;MaxHP+90, MaxSP+9, MATK+12;Beverage Stall;Smokie Grape;Flour;Salt;;
+Delicious Steak;MaxHP+120, MaxSP+12, DEF+16, MDEF+16, Gain immunity to the status ailments received, Cooldown time : 15 sec. Can only immune 2 times of status ailments;Luxury Worktop;Eggshell Chick;Desert Wolf Meat;Mountain Celery;;
+Starving Kebabs;MaxHP+200, MaxSP+12, DEF+16, MDEF+16;Wild Life BBQ;Desert Wolf Meat;Vocal Leg;Magic Spore;;
+Music Box Broth;MaxHP+120, MaxSP+12, DEF+16, Gear ASPD+0.01;Pressure Cooker;Eggshell Chick;Vocal Leg;Sugar;;
+Seaside Black Tea;MaxHP+120, MaxSP+12, MATK+16, DEF+16, Refine Piercing+0.75%;Beverage Stall;Yoyo Banana;Sugar;Milk;;
+Seafood Rice;MaxHP+120, MaxSP+12, ATK+16, Movement Speed+1%;Luxury Worktop;Marina Meat;Inkfish Tentacle;Milk;;
+Izlude Pride;Max HP+120, Max SP+12, ATK+16, DEF+16, Damage to players+0.75%;Wild Life BBQ;Marina Meat;Inkfish Tentacle;Vadon Meat;;
+Warm Current;MaxHP+120, MaxSP+12, ATK+16, MDEF+16, Ignore DEF+0.75%;Pressure Cooker;Inkfish Tentacle;Hydra Meat;Flour;;
+Cheese Cake;MaxHP+120, MaxSP+12, MATK+16, Damage to non-Boss+0.75%;Beverage Stall;Goblin Strawberry;Milk;Flour;;
+Vegetable Meal;MaxHP+120, MaxSP+12, MATK+16, Cast Delay-0.75%;Luxury Worktop;Mountain Celery;Magic Spore;Milk;;
+Farmer's Smile;MaxHP+120, MaxSP+12, MDEF+16;Wild Life BBQ;Magic Spore;Poring Apple;Sugar;;
+Delicious Vegetable Soup;MaxHP+120, MaxSP+12, MATK+16, MDEF+16;Pressure Cooker;Mountain Celery;Magic Spore;Goblin Strawberry;;
+Poring Parfait;MaxHP+120, MaxSP+12, ATK+16, MATK+16, Damage to Boss+0.75%;Beverage Stall;Smokie Grape;Poring Apple;Goblin Strawberry;;
+Flame God History;MaxHP+180, MaxSP+18, DEF+20, Gain immunity to the status ailments received, Cooldown time : 15 sec. Can only immune 3 times of status ailments;Luxury Worktop;Savage Meat;Desert Wolf Meat;Chili;;
+Gold Kebab;MaxHP+300, MaxSP+18, DEF+20, MDEF+20;Wild Life BBQ;Muka Meat;Eggshell Chick;Vanilla;;
+Satisfied;MaxHP+180, MaxSP+18, DEF+20, Gear ASPD+1.5%;Pressure Cooker;Savage Meat;Muka Meat;Sugar;;
+Duke Juice;MaxHP+180, MaxSP+18, MATK+20, DEF+20, Refine Piercing+1%;Beverage Stall;Moai Melon;Goblin Strawberry;Vanilla;;
+East Seafood Kebab;MaxHP+180, MaxSP+18, ATK+20, Movement Speed+0.15%;Luxury Worktop;Marc Meat;Inkfish Tentacle;Chili;;
+Superb Seafood Kebab;Max HP+180, Max SP+18, Atk+20, Physical Defense+20, Damage to players+1%;Wild Life BBQ;Mutated Fish;Marina Meat;Chili;;
+Singing Soul;MaxHP+180, MaxSP+18, ATK+20, MDEF+20, Ignore DEF+1%;Pressure Cooker;Mutated Fish;Marc Meat;Milk;;
+Vantican Bread;Max HP+180, Max SP+18, DEF+20, MDEF+20, Damage to non-boss+1%;Beverage Stall;Savage Meat;Gold Pumpkin;Vanilla;;
+Spicy Branch Vegetable;Max HP+180, Max SP+18, MATK+20, Cast Delay-1%;Luxury Worktop;Bamboo Eggplant;South Gate Carrot;Chili;;
+Flame Vegetable Kebab;MaxHP+180, MaxSP+18, MDEF+20;Wild Life BBQ;Gold Pumpkin;Magic Spore;Chili;;
+Warm Oasis;MaxHP+180, MaxSP+18, MATK+20, MDEF+20;Pressure Cooker;Bamboo Eggplant;Gold Pumpkin;Vanilla;;
+Ancient Ice Honey;MaxHP+180, MaxSP+18, ATK+20, MATK+20, Damage to Boss+1%;Beverage Stall;Moai Melon;Bigfoot Pineapple;Vanilla;;
+Yummy Steak;MaxHP+216, MaxSP+21, DEF+24, Gain immunity to the status ailments received, Cooldown time : 15 sec. Can only immune 3 times of status ailments;Luxury Worktop;Bamboo Eggplant;Lunatic Meat;Apple Vinegar;;
+Yummy Kebab;MaxHP+360, MaxSP+21, DEF+24, MDEF+24;Wild Life BBQ;Muka Meat;Desert Wolf Meat;Apple Vinegar;;
+Yummy Broth;MaxHP+216, MaxSP+21, DEF+24, Gear ASPD+1.75%;Pressure Cooker;Bamboo Eggplant;Vocal Leg;Cream;;
+Yummy Cake;MaxHP+216, MaxSP+21, MATK+24, DEF+24, Refine Piercing+1.25%;Beverage Stall;Bigfoot Pineapple;Smokie Grape;Cream;;
+Yummy Fish Steak;MaxHP+216, MaxSP+21, ATK+24, Movement Speed+1.75%;Luxury Worktop;Marc Meat;Marina Meat;Apple Vinegar;;
+Yummy Seafood Kebab;MaxHP+216, MaxSP+21, ATK+24, DEF+24, Damage to Players+1.25%;Wild Life BBQ;Mutated Fish;Vadon Meat;Apple Vinegar;;
+Yummy Seafood Soup;MaxHP+216, MaxSP+21, ATK+24, MDEF+24, Ignore DEF+1.25%;Pressure Cooker;Marc Meat;Mutated Fish;Apple Vinegar;;
+Yummy Tea;MaxHP+216, MaxSP+21, DEF+24, MDEF+24, Damage to non-Boss+1.25%;Beverage Stall;Moai Melon;Bigfoot Pineapple;Milk;;
+Yummy Salad;MaxHP+216, MaxSP+21, MATK+24, Cast Delay-1.25%;Luxury Worktop;Bamboo Eggplant;West Gate Tomato;Cream;;
+Yummy Vegetables;MaxHP+216, MaxSP+21, MATK+24, MDEF+24;Wild Life BBQ;Gold Pumpkin;South Gate Carrot;Apple Vinegar;;
+Yummy Vegetable Soup;MaxHP+216, MaxSP+21, MATK+24, MDEF+24;Pressure Cooker;Bamboo Eggplant;Gold Pumpkin;Cream;;
+Yummy Cookie;MaxHP+216, MaxSP+21, ATK+24, MATK+24, Damage to Boss+1.25%;Beverage Stall;Moai Melon;Poring Apple;Cream;;
+Fanstasy Steak;MaxHP+300, MaxSP+30, DEF+30, Gain immunity to the status ailments received, Cooldown time : 15 sec. Can only immune 4 times of status ailments;Luxury Worktop;Eggshell Chick;Vocal Leg;Salt;Sugar;
+Magic Meat Kebab;MaxHP+500, MaxSP+30, MATK+30, DEF+30;Wild Life BBQ;Lunatic Meat;Desert Wolf Meat;Poring Apple;Salt;
+Fantasy Broth;MaxHP+300, MaxSP+30, DEF+30, MDEF+30, Gear ASPD+2%;Pressure Cooker;Vocal Leg;Eggshell Chick;South Gate Carrot;Milk;
+Magic Bread;MaxHP+300, MaxSP+30, MATK+30, DEF+30, Refine Piercing+1.5%;Beverage Stall;Lunatic Meat;Goblin Strawberry;Salt;Flour;
+Fantasy Seafood Kebab;MaxHP+300, MaxSP+30, ATK+30, Movement Speed+2%;Luxury Worktop;Marina Meat;Vadon Meat;Salt;Sugar;
+Magic Seafood Kebab;MaxHP+300, MaxSP+30, ATK+30, MDEF+30, Damage to Players+1.5%;Wild Life BBQ;Inkfish Tentacle;Hydra Meat;West Gate Tomato;Salt;
+Fantasy Fish Soup;MaxHP+300, MaxSP+30, ATK+30, DEF+30, Ignore DEF+1.5%;Pressure Cooker;Marina Meat;Hydra Meat;Milk;Salt;
+Magic Ice Cream;MaxHP+300, MaxSP+30, DEF+30, MDEF+30, Damage to not-boss monsters+1.5%;Beverage Stall;Poring Apple;Goblin Strawberry;Sugar;Milk;
+Fantasy Salad;MaxHP+300, MaxSP+30, MATK+30, Cast Delay-1.5%;Luxury Worktop;Mountain Celery;South Gate Carrot;Salt;Milk;
+Magic Green BBQ;MaxHP+300, MaxSP+30, MATK+30, MDEF+30, Will survive at 1 HP when received fatal damage, become invincible for next 2 sec. Cooldown: 15 sec. Can only be triggered once;Wild Life BBQ;Magic Spore;West Gate Tomato;Salt;Flour;
+Fantasy Vegetable Soup;MaxHP+300, MaxSP+30, MATK+30, MDEF+30;Pressure Cooker;West Gate Tomato;South Gate Carrot;Mountain Celery;Flour;
+Magic Cookie;MaxHP+300, MaxSP+30, ATK+30, MATK+30, Damage to Boss+1.5%;Beverage Stall;Yoyo Banana;Smokie Grape;Sugar;Milk;
+Geffen Steak;MaxHP+360, MaxSP+36, DEF+32, Gain immunity to the status ailments received, Cooldown time : 15 sec. Can only immune 4 times of status ailments;Luxury Worktop;Desert Wolf Meat;Eggshell Chick;Chili;Flour;
+Gold Cross Kebab;MaxHP+600, MaxSP+36, DEF+32;Wild Life BBQ;Eggshell Chick;Vocal Leg;Vanilla;Chili;
+Mother's Hug;MaxHP+360, MaxSP+36, DEF+32, MDEF+32, Gear ASPD+2.5%;Pressure Cooker;Desert Wolf Meat;Lunatic Meat;Vanilla;Chili;
+Noble Black Tea;MaxHP+360, MaxSP+36, MATK+32, DEF+32, Refine Piercing+1.75%;Beverage Stall;Goblin Strawberry;Poring Apple;Sugar;Vanilla;
+Hydra;MaxHP+360, MaxSP+36, ATK+32, Movement Speed+2.5%;Luxury Worktop;Marina Meat;Hydra Meat;Chili;Vanilla;
+Call From Ocean;MaxHP+360, MaxSP+36, ATK+32, DEF+32, Damage to Players+1.75%, Will survive at 1 HP when received fatal damage, become invincible for next 2 sec. Cooldown: 15 sec. Can only be triggered once;Wild Life BBQ;Inkfish Tentacle;Vadon Meat;Chili;Vanilla;
+Al De Baran Fish Soup;MaxHP+360, MaxSP+36, ATK+32, MDEF+32, Ignore DEF+1.75%;Pressure Cooker;Inkfish Tentacle;Marina Meat;Sugar;Vanilla;
+Merchant City's Cake;MaxHP+360, MaxSP+36, DEF+32, MDEF+32, Damage to non-Boss+1.75%;Beverage Stall;Yoyo Banana;Smokie Grape;Milk;Vanilla;
+Forest Treasure;MaxHP+360, MaxSP+36, MATK+32, Cast Delay-1.75%;Luxury Worktop;Mountain Celery;South Gate Carrot;Sugar;Chili;
+Payon's Vegetable Kebab;MaxHP+360, MaxSP+36, MATK+32, MDEF+32;Wild Life BBQ;Magic Spore;West Gate Tomato;Milk;Vanilla;
+Princess' Black Tea;MaxHP+360, MaxSP+36, MATK+32, MDEF+32;Pressure Cooker;Magic Spore;Mountain Celery;Vanilla;Salt;
+Bigfoot Forest Cookie;MaxHP+360, MaxSP+36, ATK+32, MATK+32, Damage to Boss+1.75%;Beverage Stall;Goblin Strawberry;Yoyo Banana;Vanilla;Flour;
+Desert Steak;MaxHP+420, MaxSP+42, DEF+36, Gain immunity to the status ailments received, Cooldown time : 15 sec. Can only immune 4 times of status ailments;Luxury Worktop;Savage Meat;Desert Wolf Meat;Apple Vinegar;Cheese;
+Giant Pagoda;MaxHP+700, MaxSP+42, DEF+36;Wild Life BBQ;Muka Meat;Eggshell Chick;Cream;Sauce;
+Brandy March;MaxHP+420, MaxSP+42, DEF+36, MDEF+36, Gear ASPD+3%;Pressure Cooker;Muka Meat;Savage Meat;Sauce;Apple Vinegar;
+Summer Star;MaxHP+420, MaxSP+42, MATK+36, DEF+36, Refine Piercing+2%;Beverage Stall;Moai Melon;Goblin Strawberry;Cream;Cheese;
+Fishman's Soul;MaxHP+420, MaxSP+42, ATK+36, Movement Speed+3%;Luxury Worktop;Marc Meat;Marina Meat;Apple Vinegar;Sauce;
+Trubius Seafood Kebab;MaxHP+420, MaxSP+42, ATK+36, DEF+36, Damage to Players+2%;Wild Life BBQ;Mutated Fish;Inkfish Tentacle;Apple Vinegar;Cheese;
+Song for You;MaxHP+420, MaxSP+42, ATK+36, MDEF+36, Ignore DEF+2%;Pressure Cooker;Mutated Fish;Marc Meat;Cheese;Apple Vinegar;
+Princess Afternoon Tea;MaxHP+420, MaxSP+42, DEF+36, MDEF+36, Damage to non-Boss+2%;Beverage Stall;Moai Melon;Bigfoot Pineapple;Sugar;Cheese;
+Sweet Coriander;MaxHP+420, MaxSP+42, MATK+36, Cast Delay-2%;Luxury Worktop;Bamboo Eggplant;Mountain Celery;Sauce;Cream;
+Sky Blade;MaxHP+420, MaxSP+42, MATK+36, MDEF+36, Will survive at 1 HP when received fatal damage, become invincible for next 2 sec. Cooldown: 15 sec. Can only be triggered once;Wild Life BBQ;Gold Pumpkin;Magic Spore;Sauce;Apple Vinegar;
+Sage in Dark;MaxHP+420, MaxSP+42, MATK+36, MDEF+36;Pressure Cooker;Gold Pumpkin;Bamboo Eggplant;Milk;Cheese;
+Gatler's Palace;MaxHP+420, MaxSP+42, ATK+36, MATK+36, Damage to Boss+2%;Beverage Stall;Bigfoot Pineapple;Yoyo Banana;Cream;Cheese;
+Prontera Royal Steak;MaxHP+500, MaxSP+50, DEF+38, Gain immunity to the status ailments received, Cooldown time : 15 sec. Can only immune 4 times of status ailments;Luxury Worktop;Savage Meat;Desert Wolf Meat;Lunatic Meat;Sauce;Cream
+Prontera Royal Kebab;MaxHP+830, MaxSP+50, DEF+38;Wild Life BBQ;Muka Meat;Eggshell Chick;Vocal Leg;Apple Vinegar;Sauce
+Prontera Royal Broth;MaxHP+500, MaxSP+50, DEF+38, MDEF+38, Gear ASPD+3.25%;Pressure Cooker;Savage Meat;Muka Meat;Lunatic Meat;Apple Vinegar;Cheese
+Prontera Royal Juice;MaxHP+500, MaxSP+50, MATK+38, DEF+38, Refine Piercing+2.25%;Beverage Stall;Moai Melon;Yoyo Banana;Smokie Grape;Cheese;Cream
+Prontera Royal Fish Steak;MaxHP+500, MaxSP+50, ATK+38, Movement Speed+3.25%;Luxury Worktop;Marc Meat;Inkfish Tentacle;Hydra Meat;Cheese;Apple Vinegar
+Prontera Royal Fish Kebab;MaxHP+500, MaxSP+50, ATK+38, DEF+38, Damage to Players+2.25%;Wild Life BBQ;Mutated Fish;Marina Meat;Vadon Meat;Sauce;Apple Vinegar
+Prontera Royal Seafood Soup;MaxHP+500, MaxSP+50, ATK+38, MDEF+38, Ignore DEF+2.25%;Pressure Cooker;Marc Meat;Mutated Fish;Hydra Meat;Cheese;Sauce
+Prontera Royal Cookie;MaxHP+500, MaxSP+50, DEF+38, MDEF+38, Damage to non-Boss+2.25%;Beverage Stall;Moai Melon;Bigfoot Pineapple;Poring Apple;Cheese;Cream
+Prontera Royal Salad;MaxHP+500, MaxSP+50, MDEF+38, Cast Delay-2.25%, Will survive at 1 HP when received fatal damage, become invincible for next 2 sec. Cooldown: 15 sec. Can only be triggered twice;Luxury Worktop;Bamboo Eggplant;Magic Spore;South Gate Carrot;Apple Vinegar;Sauce
+Prontera Royal Green BBQ;MaxHP+500, MaxSP+50, MATK+38, Cast Delay -2.25%;Wild Life BBQ;Gold Pumpkin;Mountain Celery;West Gate Tomato;Cheese;Apple Vinegar
+Prontera Royal Vegetable Soup;MaxHP+500, MaxSP+50, MATK+38, MDEF+38;Pressure Cooker;Bamboo Eggplant;Gold Pumpkin;South Gate Carrot;Cheese;Sauce
+Prontera Royal Ice Cream;MaxHP+500, MaxSP+50, ATK+38, MATK+38, Damage to Boss+2.25%;Beverage Stall;Bigfoot Pineapple;Goblin Strawberry;Poring Apple;Cheese;Cream
+Original Will-Steak;MaxHP+600, MaxSP+60, DEF+40, Gain immunity to the status ailments received, Cooldown time : 15 sec. Can only immune 4 times of status ailments;Luxury Worktop;Savage Meat;Muka Meat;Desert Wolf Meat;Eggshell Chick;Miso powder
+Original Will-Kebab;MaxHP+1000, MaxSP+60, DEF+40;Wild Life BBQ;Savage Meat;Muka Meat;Desert Wolf Meat;Eggshell Chick;Miso powder
+Original Will-Broth;MaxHP+600, MaxSP+60, DEF+40, MDEF+40, Gear ASPD+3.5%;Pressure Cooker;Savage Meat;Muka Meat;Desert Wolf Meat;Eggshell Chick;Rainbow powder
+Original Will-Juice;MaxHP+600, MaxSP+60, MATK+40, DEF+40, Refine Piercing+2.5%;Beverage Stall;Moai Melon;Bigfoot Pineapple;Goblin Strawberry;Yoyo Banana;Rainbow powder
+Original Will-Fish Steak;MaxHP+600, MaxSP+60, ATK+40, Movement Speed+3.5%;Luxury Worktop;Marc Meat;Mutated Fish;Marina Meat;Inkfish Tentacle;Miso powder
+Original Will-Fish Kebab;MaxHP+600, MaxSP+60, ATK+40, DEF+40, Damage to Players+2.5%;Wild Life BBQ;Marc Meat;Mutated Fish;Marina Meat;Inkfish Tentacle;Miso powder
+Original Will-Seafood Soup;MaxHP+600, MaxSP+60, ATK+40, MDEF+40, Ignore DEF+2.5%;Pressure Cooker;Marc Meat;Mutated Fish;Marina Meat;Inkfish Tentacle;Rainbow powder
+Original Will-Cookies;MaxHP+600, MaxSP+60, DEF+40, MDEF+40, Damage to non-Boss+2.5%;Beverage Stall;Moai Melon;Bigfoot Pineapple;Goblin Strawberry;Yoyo Banana;Miso powder
+Original Will-Salad;MaxHP+600, MaxSP+60, MDEF+40, Cast Delay-2.5%;Luxury Worktop;Bamboo Eggplant;Gold Pumpkin;Magic Spore;Mountain Celery;Miso powder
+Original Will-Green BBQ;MaxHP+600, MaxSP+60, MATK+40, MDEF+40, Will survive at 1 HP when received fatal damage, become invincible for next 2 sec. Cooldown: 15 sec. Can only be triggered twice;Wild Life BBQ;Bamboo Eggplant;Gold Pumpkin;Magic Spore;Mountain Celery;Miso powder
+Original Will-Vegetable Soup;MaxHP+600, MaxSP+60, MATK+40, MDEF+40;Pressure Cooker;Bamboo Eggplant;Gold Pumpkin;Magic Spore;Mountain Celery;Miso powder
+Original Will-Ice Cream;MaxHP+600, MaxSP+60, ATK+40, MATK+40, Damage to Boss+2.5%;Beverage Stall;Moai Melon;Bigfoot Pineapple;Goblin Strawberry;Miso powder;Rainbow powder

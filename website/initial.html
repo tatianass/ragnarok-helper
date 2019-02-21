@@ -1,0 +1,27 @@
+<header class="section background-white">
+  <div class="line text-center">        
+    <h1 class="text-dark text-s-size-30 text-m-size-40 text-l-size-headline text-thin text-line-height-1">Ragnarok Helper</h1>
+    <p class="margin-bottom-0 text-size-16 text-dark">Below is the complete list of Ragnarok food list and information.</p>
+    <br>
+    <label><b>Search by recipe name: </b><input ng-model="search.recipe_name"></label>
+    <!-- <br><br><label><b>Search by ingredient: </b><input ng-model="search.ingredient"></label> -->
+    <br><br><label><b>Search by effect: </b><input ng-model="search.effect"></label>
+  </div>  
+</header>
+<div class="background-white full-width"> 
+  <div class="s-12 m-6 l-1" data-ng-repeat="i in RagnarokCtrl.list | filter: search:strict">
+    <a data-id='{{i.recipe_name}}'  data-ng-style="{'background-color':blue}" class="image-with-hover-overlay image-hover-zoom" href="" title="Food Information">
+      <div class="image-hover-overlay background-primary"> 
+        <div class="image-hover-overlay-content text-center padding-2x">
+          <p class="text-black text-size-14"><b>Name: </b>{{i.name}} 
+            <br><b>Name: </b>{{i.recipe_name}}
+            <br><b>Utensil: </b>{{i.utensil}}
+            <br><b>ingredients: </b>{{i.ingredients.Ingredient_1}}
+            <br><b>Buff: </b>{{i.buff_effect.buff}}</p>
+        </div> 
+      </div> 
+      <div></div>
+      <div class="square" ></div>
+    </a>	
+  </div>
+</div>  
