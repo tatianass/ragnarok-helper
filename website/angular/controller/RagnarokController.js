@@ -14,6 +14,8 @@
             promise.then(function (data){
                 self.list = data;
             });
+
+            self.search = "recipe_name"
         }
     ]);
 })();

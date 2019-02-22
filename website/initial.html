@@ -2,26 +2,35 @@
   <div class="line text-center">        
     <h1 class="text-dark text-s-size-30 text-m-size-40 text-l-size-headline text-thin text-line-height-1">Ragnarok Helper</h1>
     <p class="margin-bottom-0 text-size-16 text-dark">Below is the complete list of Ragnarok food list and information.</p>
-    <br>
-    <label><b>Search by recipe name: </b><input ng-model="search.recipe_name"></label>
-    <!-- <br><br><label><b>Search by ingredient: </b><input ng-model="search.ingredient"></label> -->
-    <br><br><label><b>Search by effect: </b><input ng-model="search.effect"></label>
+    <br></br>
+    <!-- <label>
+      <input type="text" id="query" ng-model="query"/>
+      <select ng-model="RagnarokCtrl.search">
+        <option value="recipe_name">Recipe name</option>
+        <option value="buff">Buff</option>
+        <option value="value">Buff value</option>
+      </select>
+      {{RagnarokCtrl.search}}
+    </label> -->
+    <label><b>Search by recipe name: </b><input ng-model="search.recipe_name"></input></label>
+    <br></br><label><b>Search by effect: </b><input ng-model="search.buff_effect.buff"></input></label>
+    <br></br><label><b>Search by ingredient: </b><input ng-model="search"></label>
+
   </div>  
 </header>
+
 <div class="background-white full-width"> 
-  <div class="s-12 m-6 l-1" data-ng-repeat="i in RagnarokCtrl.list | filter: search:strict">
-    <a data-id='{{i.recipe_name}}'  data-ng-style="{'background-color':blue}" class="image-with-hover-overlay image-hover-zoom" href="" title="Food Information">
-      <div class="image-hover-overlay background-primary"> 
-        <div class="image-hover-overlay-content text-center padding-2x">
-          <p class="text-black text-size-14"><b>Name: </b>{{i.name}} 
-            <br><b>Name: </b>{{i.recipe_name}}
+  <div class="s-12 l-4" data-ng-repeat="i in RagnarokCtrl.list | filter: search | orderBy: search">
+    <a data-id='{{i.recipe_name}}' data-ng-style="{'background-color':'black'}" href="" title="Color Information">
+          <p class="text-black text-size-14">
+            <b>Name: </b>{{i.recipe_name}} 
             <br><b>Utensil: </b>{{i.utensil}}
-            <br><b>ingredients: </b>{{i.ingredients.Ingredient_1}}
-            <br><b>Buff: </b>{{i.buff_effect.buff}}</p>
-        </div> 
-      </div> 
-      <div></div>
-      <div class="square" ></div>
-    </a>	
+            <br><b>Ingredients: </b>[{{i.ingredients[0].Ingredient_1}}, {{i.ingredients[0].Ingredient_2}}, {{i.ingredients[0].Ingredient_3}}, {{i.ingredients[0].Ingredient_4}}, {{i.ingredients[0].Ingredient_5}}]
+            <br><b>Buff: </b>{{i.buff_effect.buff}}
+            <br><b>Value: </b>{{i.buff_effect.value}}
+          </p>
+    </a> 
+    <div></div>
+    <div class="square"></div> 
   </div>
-</div>  
+</div>
